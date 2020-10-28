@@ -27,7 +27,7 @@ init {
 }
 
 start {
-  if (old.igt == 0 && current.igt > 0) {
+  if (old.igt == 0 && current.igt > 0 && current.igt < 5) {
     vars.unlocks = new Dictionary<string, bool>();
     return true;
   }
