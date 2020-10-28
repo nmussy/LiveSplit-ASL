@@ -57,5 +57,5 @@ isLoading {
 }
 
 gameTime {
-  if (current.igt != 0) return TimeSpan.FromSeconds(current.igt / 60);
+  if (current.igt > 0 && current.igt < Int64.MaxValue) return TimeSpan.FromSeconds(current.igt / 60);
 }
