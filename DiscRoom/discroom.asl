@@ -75,7 +75,7 @@ startup {
 
   settings.Add("9,6",  false, "Homesick", "south");
   settings.Add("10,6", false, "Ultimate Gatekeeper", "south");
-  settings.Add("11,6", false, "Out there", "south");
+  settings.Add("11,6", false, "Out There", "south");
 
 }
 
